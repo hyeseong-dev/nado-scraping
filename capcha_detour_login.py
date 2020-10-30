@@ -27,3 +27,9 @@ time.sleep(1)
 
 login_btn = driver.find_element_by_id('log.login')
 login_btn.click()
+
+# 로그인 성공시 html 정보 출력 
+print(driver.page_source)
+
+# 브라우저 종료
+driver.quit()

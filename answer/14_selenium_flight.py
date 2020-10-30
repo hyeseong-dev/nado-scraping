@@ -22,8 +22,8 @@ browser.find_element_by_link_text("가는날 선택").click()
 # browser.find_elements_by_link_text("28")[1].click() # [1] -> 다음달
 
 # 이번달 27일, 다음달 28일 선택
-browser.find_elements_by_link_text("27")[0].click() # [0] -> 이번달
-browser.find_elements_by_link_text("28")[1].click() # [1] -> 다음달
+browser.find_elements_by_link_text("31")[0].click() # [0] -> 이번달
+browser.find_elements_by_link_text("1")[1].click() # [1] -> 다음달
 
 # 제주도 선택
 browser.find_element_by_xpath("//*[@id='recommendationList']/ul/li[1]").click()
