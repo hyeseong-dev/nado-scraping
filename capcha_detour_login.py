@@ -21,7 +21,7 @@ naver_id.send_keys(Keys.CONTROL, 'v')
 time.sleep(1)
 
 naver_pw.click()
-pyperclip.copy('triumph2@1')
+pyperclip.copy('password')
 naver_pw.send_keys(Keys.CONTROL, 'v')
 time.sleep(1)
 
